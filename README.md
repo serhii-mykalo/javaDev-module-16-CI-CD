@@ -2,7 +2,7 @@
 
 На Github є базовий інструментарій для CI/CD процесів. Цей інструмент називається Github Actions.
 
-Документацію можна почитати ось тут - (https://github.com/features/actions)
+Документацію можна почитати ось тут - https://github.com/features/actions
 
 Один з варіантів використання Github Actions - це коли у гілку `main` відкривається Pull Request, то автоматично запускаються Unit тести для цієї гілки.
 
@@ -11,7 +11,7 @@
 - ми визначаємо __тригер__ на який необхідно реагувати (у нашому випадку - це відкриття Pull Request у гілку `main`)
 - ми пишемо __дію__ яку необхідно виконати (якщо у нас, наприклад, gradle проєкт - то це запуск команди `./gradlew test`)
 
-Офіційний tutorial по запуску тестів для Java за допомогою Github Workflow - (https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-gradle)
+Офіційний tutorial по запуску тестів для Java за допомогою Github Workflow - https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-gradle
 
 ## Завдання №1 - налаштуй запуск юніт-тестів для будь-якого проєкту
 Візьми будь-який проєкт, де є юніт-тести (якщо такого проєкту немає - то створи новий проєкт, де створи один будь-який юніт-тест).
