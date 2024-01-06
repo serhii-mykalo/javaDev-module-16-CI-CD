@@ -19,8 +19,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           architecture: x64
-      - name: Validate Gradle wrapper
-        run: ./gradlew wrapper
       - name: Make Gradlew Executable
         run: chmod +x gradlew
       - name: Run Unit Tests
